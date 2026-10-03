@@ -12,6 +12,17 @@ Il permet de créer rapidement un site personnel comprenant :
 - une recherche dans le contenu du site ;
 - un déploiement possible avec GitHub Pages.
 
+## Utiliser ce dépôt comme template
+
+Le dépôt peut servir de base à plusieurs sites personnels.
+
+Vous pouvez :
+
+- utiliser la fonctionnalité **Use this template** de GitHub ;
+- cloner le dépôt et créer un nouveau dépôt ;
+
+Il faut simplement penser à activer GitHub Pages, en précisant le déployement par GitHub Actions. Le workflow est déjà présent dans le repos.
+
 ## Structure du contenu
 
 Le contenu du site se trouve dans le dossier `content/`.
@@ -254,15 +265,6 @@ baseURL: "https://utilisateur.github.io/"
 ```
 
 Pour le déploiement avec GitHub Pages, consultez la [documentation GitHub Pages](https://docs.github.com/en/pages).
-
-## Utiliser ce dépôt comme template
-
-Le dépôt peut servir de base à plusieurs sites personnels.
-
-Vous pouvez :
-
-- utiliser la fonctionnalité **Use this template** de GitHub ;
-- cloner le dépôt et créer un nouveau dépôt ;
 
 ## Licence
 
